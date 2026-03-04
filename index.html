@@ -1,12 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<title>My Portfolio</title>
+    <meta charset="UTF-8">
+    <title>Andries Tshilidzi Mokono | Software Engineer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 </head>
 <body>
-<h1>Hello World</h1>
-<p>This is my first GitHub Pages site!</p>
-<p>hey man</p>
+
+<nav class="navbar">
+    <h2 class="logo">ATM.</h2>
+    <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+</nav>
+
+<section class="hero">
+    <div class="hero-content">
+        <h1>Hi, I'm <span>Andries Tshilidzi Mokono</span></h1>
+        <h2 class="typing"></h2>
+        <div class="buttons">
+            <a href="#projects" class="primary">View Projects</a>
+            <a href="assets/Andries Tshilidzi Mokono CV.pdf" class="secondary" download>Download CV</a>
+        </div>
+    </div>
+</section>
+
+<section id="about" class="about">
+    <div class="section-wrapper">
+        <div class="about-content">
+            <img src="assets/Andries Pic.png" alt="Andries" class="profile-pic">
+            <div class="about-text">
+                <h2>About Me</h2>
+                <p>Graduate in Software Engineering with solid foundations in Python and Java, and other technologies. 
+                    Passionate about building efficient, maintainable systems and solving complex technical 
+                    challenges. Eager to contribute to innovative projects through entry-level roles or graduate 
+                    programmes, while continuously expanding technical skills.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="skills" class="skills">
+    <div class="section-wrapper">
+        <h2>My Skills</h2>
+        <div class="skill-grid">
+            <div class="card">Java</div>
+            <div class="card">Python</div>
+            <div class="card">SQL</div>
+        </div>
+    </div>
+</section>
+
+<section id="projects" class="projects">
+    <div class="section-wrapper">
+        <h2>My Projects</h2>
+        <div class="project-grid">
+            <div class="project-card">
+                <h3>Sneaker E-commerce Platform</h3>
+                <p>Developed a responsive full-stack platform featuring secure transaction processing and a relational database 
+                    for inventory management.</p>
+                <!-- <a href="#" class="project-link">View Project</a> -->
+            </div>
+            <div class="project-card">
+                <h3>Business Operations Dashboard</h3>
+                <p>Built an end-to-end tool using Python and SQLite, visualized in Tableau to identify operational bottlenecks and 
+trends.</p>
+                <!-- <a href="#" class="project-link">View Project</a> -->
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="contact" class="contact">
+    <div class="section-wrapper">
+        <h2>Contact Me</h2>
+        <form class="contact-form">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit" class="primary">Send Message</button>
+        </form>
+    </div>
+</section>
+
+<footer>
+    <div class="social-links">
+        <a href="https://github.com/drico999"><i class="fab fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/andries-mokono-00463830b"><i class="fab fa-linkedin"></i></a>
+    </div>
+    <p>&copy; 2026 Andries Tshilidzi Mokono.</p>
+</footer>
+
+<script src="script.js"></script>
 </body>
 </html>
